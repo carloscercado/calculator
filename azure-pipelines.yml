@@ -9,7 +9,7 @@ trigger:
 pool:
     name: az400m05l05a-pool
     demands:
-      - agent.name -equals MiAgente
+      - agent.name -equals STUDENT_400_02
 steps:
 - task: NodeTool@0
   inputs:
