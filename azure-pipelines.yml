@@ -19,4 +19,5 @@ steps:
 - script: |
     npm install
     npm run build
-  displayName: 'npm install and build'
+    npm run test
+  displayName: 'Instalacion, contruccion y pruebas de la APP'
